@@ -10,6 +10,7 @@
         background-image: url(https://www.designbolts.com/wp-content/uploads/2018/01/Purple-Sky-Laptop-HD-WallPaper-1920-x-1080-px-1.jpg);
         background-repeat: no-repeat;
         background-position: center;
+        height: 100%;
     }
     body::before {
         content: "";
@@ -21,7 +22,6 @@
         opacity: 0.5;
         background-color: white;
         z-index: -1;
-        height: 100vh;
     }
     h2 {
         color: #f32d5f;
@@ -44,7 +44,6 @@
     .time {
         display: flex;
         flex-direction: column;
-        margin-bottom: 24px;
     }
     h1 {
         text-align: center;
@@ -54,10 +53,10 @@
         line-height: normal;
         letter-spacing: 6.136px;
         text-transform: uppercase;
-        margin: 36px;
+        margin: 24px;
     }
     .socials {
-        margin-top: 106px;
+        margin-top: 10%;
         display: flex;
         gap: 24px;
     }
