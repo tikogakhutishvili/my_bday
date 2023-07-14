@@ -1,0 +1,28 @@
+@media screen and (min-width:760px){
+    h2 {
+        font-size: 80px;
+    }
+    .box{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 10vh;
+        margin-top: 5%;
+    }
+    h1 {
+        margin-top: 10%;
+    }
+    .socials {
+        margin-top: 17%;
+        gap: 5vh;
+    }
+    p {
+        font-size: 24px;
+    }
+    .time {
+        gap: 3.5vh;
+    }
+    
+}

@@ -1,0 +1,78 @@
+@media screen and (min-width:375px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url(https://www.designbolts.com/wp-content/uploads/2018/01/Purple-Sky-Laptop-HD-WallPaper-1920-x-1080-px-1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    body::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        background-color: white;
+        z-index: -1;
+        height: 100vh;
+    }
+    h2 {
+        color: #f32d5f;
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 71px;
+        letter-spacing: -1.08px;
+    }
+    p {
+        color: black;
+        text-align: center;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2.959px;
+    }
+    .time {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+    h1 {
+        text-align: center;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 6.136px;
+        text-transform: uppercase;
+        margin: 36px;
+    }
+    .socials {
+        margin-top: 106px;
+        display: flex;
+        gap: 24px;
+    }
+    a {
+        cursor: pointer ;
+        display: inline-block;
+    }
+    
+      a > svg {
+        transition: transform 0.3s ease;
+      }
+    
+    a > svg:hover {
+        transform: rotate(360deg) ;
+        fill: #f32d5f ;
+    }
+    
+}
